@@ -28,6 +28,7 @@ public class Q_216ArrayListOptionalTask {
 		    arr.add(new String[]{"3","title 3","content3"});
 
 		    String post = m.blogDb(arr,"3");
+		    System.out.println(post);
 		    System.out.print(post);
 		    //should output:
 		    //title 3 
