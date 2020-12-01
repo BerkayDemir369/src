@@ -1,0 +1,17 @@
+package assesment3;
+
+public class Question25 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		boolean b=false;
+		int i=1;
+				do {
+					i++;
+				}while(b=!b);
+				System.out.println(i);
+	}
+	
+
+}
